@@ -28,7 +28,7 @@ Make sure to check the browser compatibility for Web Components in your tests!
 - [ ] [📘](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/tree-view) `<fl-treeview>`
 
 ### Input
-- [ ] [📘](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/buttons) `<fl-button>`
+- [x] [📘](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/buttons) `<fl-button>` (`<button is="fl-button">`)
 - [ ] [📘](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/checkbox) `<fl-checkbox>`
 - [ ] [📘](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/color-picker) `<fl-colorpicker>`
 - [ ] [📘](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/calendar-date-picker) `<fl-calendardatepicker>`
