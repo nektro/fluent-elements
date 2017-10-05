@@ -22,7 +22,7 @@ Make sure to check the browser compatibility for Web Components in your tests!
 
 ### Layout
 - [ ] [📘](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/lists) `<fl-listview>`
-- [ ] [📘](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/navigationview) `<fl-navigationview>`
+- [x] [📘](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/navigationview) `<fl-navigationview>`
 - [ ] [📘](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/split-view) `<fl-splitview>`
 - [ ] [📘](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/tabs-pivot) `<fl-pivot>`
 - [ ] [📘](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/tree-view) `<fl-treeview>`
