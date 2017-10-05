@@ -1,0 +1,9 @@
+{
+  "name": "fluent-elements",
+  "version": "r0",
+  "description": "A collection of Custom Elements by Nektro based on Fluent Design by Microsoft",
+  "main": "fluent.html",
+  "repository": "https://github.com/Nektro/fluent-elements.git",
+  "author": "Nektro <nektromc@gmail.com>",
+  "license": "MIT"
+}
