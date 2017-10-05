@@ -22,7 +22,7 @@
         flex-grow: 1;
     }
     /**/
-    fl-navigationview .title {
+    fl-navigationview span[slot="nav"] span.title {
         line-height: 48px;
         margin-left: 10px;
     }
@@ -82,31 +82,33 @@
 <script>
     (function() {
         const doc = document.currentScript.ownerDocument;
+        const li_selector = `span[slot="nav"] fl-navigationview-li`;
+        const cn_selector = `span[slot="content"] fl-contentpane`;
         customElements.define('fl-navigationview', class FLNavigationView extends HTMLElement {
             constructor() {
                 super();
                 /**/
-                let a = this.querySelectorAll(this.li_selector);
+                let a = this.querySelectorAll(li_selector);
                 if (a.length !== 0) this._select(0);
             }
             _select(n) {
-                let a = this.querySelector(`${this.li_selector}.active`);
-                if (a !== null && Array.from(a.parentElement.children).indexOf(a) === n) return;
-                if (a !== null) a.classList.remove('active');
-                this.querySelectorAll(this.li_selector)[n].classList.add('active');
-                let b = this.parentElement.querySelectorAll('fl-navigationview fl-contentpane');
-                b.forEach((v,i) => { v.classList.remove('active'); });
-                if (b.length > n) b[n].classList.add('active');
-            }
-            get li_selector() {
-                return `span[slot="nav"] fl-navigationview-li`;
+                const a = this.children[0].querySelectorAll(li_selector);
+                const b = Array.from(a).find((x) => { return x.classList.contains('active'); });
+                const c = Array.from(a).indexOf(b);
+                if (c === n) return;
+                if (b !== undefined) b.classList.remove('active');
+                const d = this.children[1].querySelectorAll(cn_selector);
+                a[n].classList.add('active');
+                if (d[c] !== undefined) d[c].classList.remove('active');
+                d[n].classList.add('active');
             }
         });
         customElements.define('fl-navigationview-li', class FLNavigationViewLI extends HTMLElement {
             constructor() {
                 super();
                 this.addEventListener('click', (e) => {
-                    this.parentElement.parentElement._select(Array.from(this.parentElement.children).indexOf(this));
+                    const m = Array.from(this.parentElement.querySelectorAll(li_selector)).indexOf(this);
+                    this.parentElement.parentElement._select(m);
                 });
             }
         });

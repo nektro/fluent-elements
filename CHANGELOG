@@ -1,5 +1,7 @@
 fluent-elements change log
 
+r3.1:
+    update <fl-navigationview> to allow titles
 r3:
     add fl-button (<button is="fl-button")
 r2:
