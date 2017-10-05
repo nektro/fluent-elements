@@ -1,4 +1,8 @@
 fluent-elements change log
 
-r0:
+r2:
+    add <fl-navigationview>
+        add <fl-navigationview-li>
+        add <fl-contentpane>
+r1:
     add <fl-icon>

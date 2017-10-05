@@ -1289,12 +1289,6 @@ fl-icon[char]::before { content: attr(char); }
 </style>
 <script>
     (function() {
-        customElements.define('fl-icon', class FLIcon extends HTMLElement {
-            constructor() {
-                super();
-                // dummy constructor
-                // style is done in css
-            }
-        })
+        customElements.define('fl-icon', class FLIcon extends HTMLElement { constructor() { super(); } });
     })();
 </script>
