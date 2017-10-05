@@ -47,7 +47,7 @@ Make sure to check the browser compatibility for Web Components in your tests!
 ### Other
 - [ ] [📘](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/hyperlinks) `<fl-hyperlink>`
 - [ ] [📘](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/images-imagebrushes) `<fl-image>`
-- [ ] [📘](https://docs.microsoft.com/en-us/windows/uwp/style/segoe-ui-symbol-font) `<fl-icon>`
+- [x] [📘](https://docs.microsoft.com/en-us/windows/uwp/style/segoe-ui-symbol-font) `<fl-icon>` (\*Requires Windows 10)
 - [ ] [📘](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/calendar-view) `<fl-calendarview>`
 - [ ] [📘](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/person-picture) `<fl-personpicture>`
 - [ ] [📘](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/progress-controls#progressbar) `<fl-progressbar>`
