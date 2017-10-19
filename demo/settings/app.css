@@ -1,0 +1,79 @@
+html, body {
+  height: 100%;
+}
+
+a {
+  color: #0078cf;
+  cursor: pointer;
+}
+
+fl-contentpane > section > * {
+  margin: 1em 0px;
+}
+
+dl {
+  display: grid;
+  grid-template-columns: 2;
+}
+
+dt {
+  grid-column: 1 / 2;
+  margin-bottom: 5px;
+}
+
+dd {
+  grid-column: 2 / 3;
+  color: #7f7f7f;
+}
+
+main[file="/"] {
+  margin: 10px;
+}
+
+main[file="/"] fl-icon {
+  font-size: 300%;
+  margin-bottom: 10px;
+}
+
+main[file="/"] h1 {
+  font-weight: 300;
+  font-size: 250%;
+}
+
+main[file="/"] center {
+  max-width: 1025px;
+  text-align: center;
+  margin: auto;
+}
+
+main[file="/"] div#cont {
+  display: inline-flex;
+  flex-wrap: wrap;
+}
+
+main[file="/"] div#cont a {
+  border: 2px solid transparent;
+  padding: 40px 25px;
+  text-decoration: none;
+  min-width: 150px;
+  text-align: center;
+  vertical-align: top;
+  min-height: 135px;
+}
+
+main[file="/"] div#cont a:hover {
+  border: 2px solid #cfcfcf;
+}
+
+main[file="/"] div#cont a div {
+  max-width: 150px;
+  font-size: 14px;
+}
+
+main[file="/"] div#cont a div:first-of-type {
+  color: black;
+}
+
+main[file="/"] div#cont a div:last-of-type {
+  color: #7f7f7f;
+}

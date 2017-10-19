@@ -1,0 +1,70 @@
+html, body {
+    height: 100%;
+}
+a {
+    color: #0078cf;
+    cursor: pointer;
+}
+fl-contentpane > section > * {
+    margin: 1em 0px;
+}
+dl {
+    display: grid;
+    grid-template-columns: 2;
+}
+dt {
+    grid-column: 1 / 2;
+    margin-bottom: 5px;
+}
+dd {
+    grid-column: 2 / 3;
+    color: #7f7f7f;
+}
+main {
+    &[file="/"] {
+        margin: 10px;
+
+        fl-icon {
+            font-size: 300%;
+            margin-bottom: 10px;
+        }
+        h1 {
+            font-weight: 300;
+            font-size: 250%;
+        }
+        center {
+            max-width: 1025px;
+            text-align: center;
+            margin: auto;
+        }
+        div#cont {
+            display: inline-flex;
+            flex-wrap: wrap;
+
+            a {
+                border: 2px solid transparent;
+                padding: 40px 25px;
+                text-decoration: none;
+                min-width: 150px;
+                text-align: center;
+                vertical-align: top;
+                min-height: 135px;
+
+                &:hover {
+                    border: 2px solid #cfcfcf;
+                }
+                div {
+                    max-width: 150px;
+                    font-size: 14px;
+
+                    &:first-of-type {
+                        color: black;
+                    }
+                    &:last-of-type {
+                        color: #7f7f7f;
+                    }
+                }
+            }
+        }
+    }
+}
