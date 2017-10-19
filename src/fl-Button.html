@@ -36,11 +36,7 @@
         customElements.define('fl-button', class FLButtonElement extends HTMLElement {
             constructor() {
                 super();
-                let label = this.innerHTML;
-                this.innerHTML = `<button>${label}</button>`;
             }
-        }, {
-            extends: 'button'
-        });
+        }, { extends: 'button' });
     })();
 </script>
