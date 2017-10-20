@@ -45,7 +45,7 @@ Make sure to check the browser compatibility for Web Components in your tests!
 - [ ] [📘](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/lists#drop-down-lists) `<fl-combobox>`
 
 ### Other
-- [ ] [📘](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/hyperlinks) `<fl-hyperlink>`
+- [x] [📘](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/hyperlinks) `<fl-hyperlink>`
 - [ ] [📘](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/images-imagebrushes) `<fl-image>`
 - [x] [📘](https://docs.microsoft.com/en-us/windows/uwp/style/segoe-ui-symbol-font) `<fl-icon>` (\*Requires Windows 10)
 - [ ] [📘](https://docs.microsoft.com/en-us/windows/uwp/controls-and-patterns/calendar-view) `<fl-calendarview>`

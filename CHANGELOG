@@ -1,5 +1,7 @@
 fluent-elements change log
 
+r5:
+    add FL Hyperlink a[is="fl-hyperlink"]
 r4.1:
     TitleBar: change [name] attribute to [title]
 r4:
