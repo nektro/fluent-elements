@@ -1,5 +1,7 @@
 fluent-elements change log
 
+r4:
+    add <fl-titlebar>
 r3.1:
     update <fl-navigationview> to allow titles
 r3:
