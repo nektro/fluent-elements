@@ -14,7 +14,7 @@ in your web apps.
 Make sure to check the browser compatibility for Web Components in your tests!
 - [Custom Elements v1](https://caniuse.com/#feat=custom-elementsv1)
 - [Shadow DOM v1](https://caniuse.com/#feat=shadowdomv1)
-- [HTML Imports](https://caniuse.com/#feat=imports)(Recommended)([Polyfill](https://github.com/webcomponents/html-imports))
+- [HTML Imports](https://caniuse.com/#feat=imports) (Recommended)([Polyfill](https://github.com/webcomponents/html-imports))
 
 📘 = link to Fluent Design documentation  
 
