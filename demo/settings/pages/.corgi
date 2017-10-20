@@ -20,7 +20,7 @@
                 div("Devices")
                 div("Bluetooth, printers, mouse")
             )
-            a[href="#/devices"](
+            a[href="#/phone"](
                 fl-icon[icon="CellPhone"]
                 div("Phone")
                 div("Link your Android, iPhone")
