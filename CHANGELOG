@@ -1,5 +1,7 @@
 fluent-elements change log
 
+r4.1:
+    TitleBar: change [name] attribute to [title]
 r4:
     add <fl-titlebar>
 r3.1:

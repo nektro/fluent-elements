@@ -42,7 +42,7 @@
                 });
             }
             static get observedAttributes() {
-                return ['name','color'];
+                return ['title','color'];
             }
             attributeChangedCallback(attr, oV, nV) {
                 if (attr === 'color') {
@@ -53,7 +53,7 @@
                     let o = Math.round(((parseInt(rgb[0]) * 299) + (parseInt(rgb[1]) * 587) + (parseInt(rgb[2]) * 114)) /1000);
                     this.style.color = ((o > 125) ? ('black') : ('white'));
                 }
-                if (attr === 'name') {
+                if (attr === 'title') {
                     this.children[1].innerHTML = nV;
                 }
             }
