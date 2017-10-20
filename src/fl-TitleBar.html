@@ -41,6 +41,11 @@
                     window.history.back();
                 });
             }
+            connectedCallback() {
+                if (!(this.hasAttribute('color'))) {
+                    this.setAttribute('color', '#0078cf');
+                }
+            }
             static get observedAttributes() {
                 return ['title','color'];
             }
